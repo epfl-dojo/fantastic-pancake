@@ -1,5 +1,5 @@
-# BUILD: docker build -t epfl-dojo/fantastic-pancake .
-# RUN: docker run -t --name edfp -p 3000:8000 epfl-dojo/fantastic-pancake
+# BUILD: docker build -t epfldojo/fantastic-pancake .
+# RUN: docker run -t --name edfp -p 3000:8000 epfldojo/fantastic-pancake
 # DEBUG: docker exec -it edfp bash
 FROM ubuntu
 MAINTAINER Mauricio
